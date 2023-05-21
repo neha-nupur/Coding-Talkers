@@ -24,11 +24,11 @@ if (isset($_SESSION["user_id"])) {
 </head>
 <body>
     
-    <h1>Home</h1>
+    <h1 style="color:#fff;">Home</h1>
     
     <?php if (isset($user)): ?>
         
-        <p>Hello <?= htmlspecialchars($user["name"]) ?></p>
+        <p style="color:#fff;">Hello <?= htmlspecialchars($user["name"]) ?></p>
         
         <p><a href="logout.php">Log out</a></p>
         
