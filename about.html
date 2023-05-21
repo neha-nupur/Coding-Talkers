@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mind Palace</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5983f1755c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html">
+          <img src="images/MindPalace_logo.png" alt="NN Logo"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="blogs.html">BLOGS</a></li>
+            <li><a href="contact.html">SAY HELLO</a></li>
+            <li><a href="">EXPLORE</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>About Us</h1>
+    </section>
+
+    <!-- ----------about us content--------- -->
+
+    <section class="about-us-container">
+      <div class="about-us">
+        <div class="row">
+          <div class="about-col">
+            <h1>Know About Us</h1>
+            <p>
+              Welcome to Mind Palace, the online home of a vibrant and supportive
+        community of developers from all walks of life. Our goal is to provide a
+        nurturing environment where developers can learn, experiment,
+        collaborate, and grow together. At Mind Palace, we believe that
+        everyone has something to offer, and that by sharing our knowledge and
+        skills, we can solve complex problems, create innovative solutions, and
+        push the boundaries of what's possible. <br /><br />
+
+        Our website is designed to help you on your journey as a developer, no
+        matter your level of experience or specializations. Whether you're just
+        starting out, looking to explore new topics, or striving to take your
+        career to the next level, you'll find a wealth of resources and
+        opportunities here that will help you achieve your goals. From
+        step-by-step tutorials and articles to open-source projects and events,
+        we are committed to providing you with the tools and support you need to
+        succeed. <br /><br />
+
+        Our community is made up of developers from all over the world who share
+        a passion for technology and creativity. We value collaboration,
+        innovation, and inclusivity, and we strive to create a safe and
+        welcoming space where everyone can feel comfortable sharing their ideas
+        and asking questions. Whether you prefer to learn through hands-on
+        projects, engaging discussions, or one-on-one mentoring, there's always
+        something for you here at Mind Palace. <br /><br />
+
+        Our team is made up of experienced developers and educators who are
+        passionate about teaching and technology. We work hard to create
+        relevant and engaging content, organize events and projects, and foster
+        connections between members of the community. We're always here to
+        support you on your journey, answer your questions, and provide feedback
+        on your work. <br /><br />
+
+        So if you're looking for a welcoming and supportive community of
+        developers, you've come to the right place. We can't wait to get to know
+        you and help you achieve your dreams. Join us now and start building
+        your future! <br /><br />
+            </p>
+            <a href="" class="hero-btn ab-btn">Explore Now</a>
+          </div>
+          <div class="about-col">
+            <img src="images/aboutUs.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------Call To Action------- -->
+
+    <section class="cta">
+      <h1>Join the Mind Palace Community</h1>
+      <h2>Where Brilliance Meets Growth</h2>
+      <br />
+      <a href="" class="hero-btn-cta">SAY HELLO To Community Member</a>
+    </section>
+
+    <!-- -----Footer-----  -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        We believe that by working together and sharing ideas, we can create a
+        stronger community that benefits everyone. Our platform provides you
+        with the resources and tools you need to connect with fellow developers
+        and start building something remarkable.
+      </p>
+
+      <footer class="footer">
+        <div class="inner-footer">
+          <div class="social-links">
+            <ul>
+              <li class="social-items">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li class="social-items">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li class="social-items">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+              <li class="social-items">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="outer-footer">
+          Copyright &copy; Mind Palace. All Right Reserved
+          <p>Designed By - Neha Nupur</p>
+        </div>
+      </footer>
+    </section>
+
+    <script>
+      //  <!------ JavaScript for Toggle Menu ------>
+
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

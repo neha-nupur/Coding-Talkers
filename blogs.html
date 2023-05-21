@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mind Palace</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5983f1755c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html">
+          <img src="images/MindPalace_logo.png" alt="NN Logo"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="blogs.html">BLOGS</a></li>
+            <li><a href="contact.html">SAY HELLO</a></li>
+            <li><a href="">EXPLORE</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Blogs</h1>
+    </section>
+
+    <!-- ----Blog Page--- -->
+
+    <section class="blog-page">
+      <div class="row">
+        <div class="blog-col">
+          <img
+            src="images/The Power of Community How Connectedness Can Transform Lives.png"
+            alt="Power-Of-Community"
+          />
+          <h3>
+            The Power of Community: How Connectedness Can Transform Lives?
+          </h3>
+          <p>
+            Living in a world full of uncertainty and unfamiliarity can be
+            challenging. Today, more than ever, people crave a sense of
+            belonging and connection. <a href="blog1.html">Read More</a>
+          </p>
+        </div>
+        <div class="blog-col">
+          <img
+            src="images/Benefits of Building Projects in Developers Community.png "
+            alt="Developer's Community"
+          />
+          <h3>Benefits of Building Projects in Developers Community</h3>
+          <p>
+            Developers community is a group of technology enthusiasts, software
+            engineers, programmers, and coding enthusiasts. This community is
+            vibrant and energetic, with members who are dedicated to solving a
+            range of problems. <a href="blog2.html">Read More</a>
+          </p>
+        </div>
+        <div class="blog-col">
+          <img src="images/AI and ML Cover.png" alt="AI and ML Cover" />
+          <h3>The Future of Artificial Intelligence and Machine Learning</h3>
+          <p>
+            Artificial intelligence (AI) and machine learning (ML) have been at
+            the forefront of technologies in recent years, fueling a range of
+            advancements across various sectors.
+            <a href="blog3.html">Read More</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------Call To Action------- -->
+
+    <section class="cta">
+      <h1>Join the Mind Palace Community</h1>
+      <h2>Where Brilliance Meets Growth</h2>
+      <br />
+      <a href="" class="hero-btn-cta">SAY HELLO To Community Member</a>
+    </section>
+
+    <!-- -----Footer-----  -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        We believe that by working together and sharing ideas, we can create a
+        stronger community that benefits everyone. Our platform provides you
+        with the resources and tools you need to connect with fellow developers
+        and start building something remarkable.
+      </p>
+
+      <footer class="footer">
+        <div class="inner-footer">
+          <div class="social-links">
+            <ul>
+              <li class="social-items">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li class="social-items">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li class="social-items">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+              <li class="social-items">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="outer-footer">
+          Copyright &copy; Mind Palace. All Right Reserved
+          <p>Designed By - Neha Nupur </p>
+        </div>
+      </footer>
+    </section>
+
+    <script>
+      //  <!------ JavaScript for Toggle Menu ------>
+
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
