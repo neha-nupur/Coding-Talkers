@@ -43,7 +43,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </head>
 <body>
     
-    <h1>Login</h1>
+ <!-- --------Login PHP ----------- -->
+
+ <div class="login-php">
+ <h1>Login</h1>
     
     <?php if ($is_invalid): ?>
         <em>Invalid login</em>
@@ -57,8 +60,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <label for="password">Password</label>
         <input type="password" name="password" id="password">
         
-        <button>Log in</button>
+        <button class="hero-btn">Log in</button>
     </form>
+ </div>
     
 </body>
 </html>

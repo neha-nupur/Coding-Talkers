@@ -932,13 +932,14 @@
     padding: 60px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    color: #ccc;
+    
   }
   
   .signup h1 {
     text-align: center;
     font-size: 45px;
     padding-bottom: 20px;
+    color: #fff;
   }
   
   .signup form {
@@ -954,6 +955,7 @@
     display: block;
     margin-bottom: 5px;
     font-size: 16px;
+    color: #ccc;
   }
   
   .signup form input[type="text"],
@@ -1007,5 +1009,53 @@
     text-decoration: none;
   }
   
+  /* -----Login PHP-------- */
+
+  .login-php {
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-php h1 {
+    text-align: center;
+    font-size: 46px;
+    color: #fff;
+  }
+  
+  .login-php em {
+    color: red;
+  }
+  
+  .login-php form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .login-php form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .login-php form input[type="email"],
+  .login-php form input[type="password"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .login-php form button.hero-btn{
+    width: 100%;
+    font-size: 22px;
+  }
   
   
