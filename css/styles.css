@@ -941,6 +941,8 @@ body {
 
 .signup p{
   color: #ccc;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .signup a{
