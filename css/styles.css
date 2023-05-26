@@ -929,10 +929,18 @@ body {
 /* -------SignUp Form--------- */
 
 .signup {
-  margin-top: 50px;
-  padding: 60px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #000000ef;
+  padding: 4rem;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 1.1rem;
+  box-shadow: 0px 0px 25px rgba(0, 0, 1.2, 1.5);
+  margin: 5rem auto;
+  width: 30rem;
+}
+
+.signup p{
+  color: #ccc;
 }
 
 .signup a{
@@ -998,10 +1006,14 @@ body {
 /* -------Signup Success----- */
 
 .signup-success {
-  margin-top: 50px;
-  padding: 30px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #000000ef;
+  padding: 4rem;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 1.1rem;
+  box-shadow: 0px 0px 25px rgba(0, 0, 1.2, 1.5);
+  margin: 10rem auto;
+  width: 30rem;
 }
 
 .signup-success h1 {
@@ -1021,10 +1033,14 @@ body {
 /* -----Login PHP-------- */
 
 .login-php {
-  margin-top: 50px;
-  padding: 30px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #000000ef;
+  padding: 4rem;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 1.1rem;
+  box-shadow: 0px 0px 25px rgba(0, 0, 1.2, 1.5);
+  margin: 10rem auto;
+  width: 30rem;
 }
 
 .login-php h1 {
@@ -1070,27 +1086,41 @@ body {
 
 /* -------Confirmation------- */
 
-.confirm {
-  color: #fff;
-  text-align: center;
-  padding: 40px;
+.confirm-container {
+  background-color: #000000ef;
+  padding: 4rem;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 1.1rem;
+  box-shadow: 0px 0px 25px rgba(0, 0, 1.2, 1.5);
+  margin: 10rem auto;
+  width: 30rem;
 }
 
-.confirm h1 {
-  font-size: 2rem;
+.confirm-container h1 {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .confirm p {
   font-size: 1.2rem;
-  margin-bottom: 1rem;
-}
-
-.confirm a {
-  color: #fff;
-  text-decoration: underline;
-}
-
-.confirm a:hover {
+  text-align: center;
   color: #ccc;
-  text-decoration: none;
+  margin-bottom: 2rem;
 }
+
+.confirm-p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.confirm {
+  text-align: center;
+}
+
+
+
