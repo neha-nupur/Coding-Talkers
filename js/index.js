@@ -57,3 +57,5 @@ minusIcons.forEach((icon) => {
     accordionLink.querySelector(".fa-plus").style.display = "block";
   });
 });
+
+
