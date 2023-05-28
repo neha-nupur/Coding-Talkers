@@ -360,12 +360,12 @@ video {
 
 .comm-col h1 {
   color: #d4adfc;
-  font-size: 42px;
+  font-size: 62px;
 }
 
 .comm-col h2 {
   color: #fdfdfd;
-  font-size: 50px;
+  font-size: 64px;
 }
 
 .comm-col-right {
@@ -391,10 +391,10 @@ video {
     padding: 0;
   }
   .comm-col h1 {
-    font-size: 28px;
+    font-size: 36px;
   }
   .comm-col h2 {
-    font-size: 36px;
+    font-size: 38px;
   }
   .comm-col-right {
     margin: 40px 20px;
