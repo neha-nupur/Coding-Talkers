@@ -402,9 +402,15 @@ video {
   .comm-col-right {
     margin: 40px 20px;
     padding: 0px;
+    text-align: center;
+  }
+
+  .comm-col-right p {
+    text-align: justify;
   }
   .comm-col-right .hero-btn {
     float: none;
+    
   }
 }
 
