@@ -12,50 +12,35 @@ function hideMenu() {
 
 // ------------Accordion ---------
 
-const accordionLinks = document.querySelectorAll(".accordion-link");
 
-accordionLinks.forEach((link) => {
-  link.addEventListener("click", () => {
-    const accordionItem = link.closest(".accordion-item");
-    const answerEl = accordionItem.querySelector(".answer");
-    if (accordionItem.classList.contains("active")) {
-      // If the item is already active, remove the active state and hide the answer
-      accordionItem.classList.remove("active");
-      answerEl.style.maxHeight = null;
-      link.querySelector(".fa-minus").style.display = "none";
-      link.querySelector(".fa-plus").style.display = "block";
-    } else {
-      // Remove active state from other items and set this item as active
-      accordionLinks.forEach((otherLink) => {
-        if (otherLink !== link) {
-          otherLink.closest(".accordion-item").classList.remove("active");
-          otherLink.nextElementSibling.style.maxHeight = null;
-          otherLink.querySelector(".fa-minus").style.display = "none";
-          otherLink.querySelector(".fa-plus").style.display = "block";
+let toggles = document.getElementsByClassName('toggle');
+let acc_answerDiv = document.getElementsByClassName('acc-answer');
+let icons = document.getElementsByClassName('icon');
+
+for(let i=0; i<toggles.length; i++){
+    toggles[i].addEventListener('click', ()=>{
+        if(parseInt(acc_answerDiv[i].style.height) != acc_answerDiv[i].scrollHeight){
+            acc_answerDiv[i].style.height = acc_answerDiv[i].scrollHeight + "px";
+            toggles[i].style.color = "#fff";
+            icons[i].classList.remove('fa-plus');
+            icons[i].classList.add('fa-minus');
+        } 
+        else {
+            acc_answerDiv[i].style.height = "0px";
+            toggles[i].style.color = "#e0a2e1";
+            icons[i].classList.remove('fa-minus');
+            icons[i].classList.add('fa-plus');
         }
-      });
-      accordionItem.classList.add("active");
-      answerEl.style.maxHeight = answerEl.scrollHeight + "px";
-      link.querySelector(".fa-minus").style.display = "block";
-      link.querySelector(".fa-plus").style.display = "none";
-    }
-  });
-});
 
-// Add click event listener to minus icons to collapse the accordion
-const minusIcons = document.querySelectorAll(".accordion-link .fa-minus");
-
-minusIcons.forEach((icon) => {
-  icon.addEventListener("click", (event) => {
-    event.stopPropagation();
-
-    const accordionItem = icon.closest(".accordion-item");
-    const accordionLink = accordionItem.querySelector(".accordion-link");
-    accordionItem.classList.remove("active");
-    accordionItem.querySelector(".answer").style.maxHeight = null;
-    accordionLink.querySelector(".fa-minus").style.display = "none";
-    accordionLink.querySelector(".fa-plus").style.display = "block";
-  });
-});
+        for(let j=0; j<acc_answerDiv.length; j++){
+            if(j!=i){
+                acc_answerDiv[j].style.height = "0px";
+                toggles[j].style.color = "#e0a2e1";
+                icons[j].classList.remove('fa-minus');
+                icons[j].classList.add('fa-plus');
+            }
+        }
+    })
+}
 
 
