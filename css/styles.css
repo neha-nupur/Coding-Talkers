@@ -376,17 +376,16 @@ video {
   margin: 100px 80px 80px 0;
   padding-top: 200px;
   width: 80%;
+  text-align: right;
 }
 
 .comm-col-right p {
   color: #fff;
-  text-align: left;
+  font-size: 20px;
   display: flex;
 }
 
-.comm-col-right .hero-btn {
-  text-align: center;
-}
+
 
 @media (max-width: 900px) {
   .comm-col {
