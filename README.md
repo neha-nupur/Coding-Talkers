@@ -25,7 +25,7 @@ The project uses HTML, CSS, and JavaScript for the front-end development and PHP
 <h1>Usage Instructions</h1>
 <ol>
   <li>When you open the project, you will be directed to the home page <code>index.html</code>.</li>
-  <li>You can click on the "Sign Up" buttons to Sign Up into the site and if already a user simply login and join community or navigate to the respective pages.</li>
+  <li>You can click on the "Sign Up" menu buttons to Sign Up into the site and if already a user simply login and join community or navigate to the respective pages.</li>
   <li>On the sign-up page, provide your name and valid email and password (which must contain at least 1 letter and 1 number).</li>
   <li>On the login page, enter your email and password, which will be validated against the database records.</li>
   <li>If the login details are correct, you will be redirected to the confirmation page <code>confirm.php</code>. If not, you will receive an error message.</li>
