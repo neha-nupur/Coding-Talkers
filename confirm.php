@@ -32,7 +32,7 @@ if (isset($_SESSION["user_id"])) {
             <p>Hello <?= htmlspecialchars($user["name"]) ?></p>
             <p>Congrats! You are now Logged In</p>
         </div>
-        <a href="https://discord.gg/SkNvRu3S" class="hero-btn">Join Community</a>
+        <a href="https://discord.gg/ZjSHMdQvsW" class="hero-btn">Join Community</a>
       
       <br>
       <br>
