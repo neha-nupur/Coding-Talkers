@@ -99,7 +99,7 @@ video {
 
 .text-box p {
   margin: 10px 0 40px;
-  font-size: 16px;
+  font-size: 20px;
   color: #dfdfdf;
 }
 
@@ -203,9 +203,14 @@ video {
   color: #ffffff;
 }
 
-.explore p {
+.explore p{
   color: #d4adfc;
-  font-size: 14px;
+  font-size: 20px;
+}
+
+.explore-col p {
+  color: #d4adfc;
+  font-size: 16px;
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
@@ -244,9 +249,9 @@ video {
     flex-direction: column;
   }
 
-  .explore p {
+  .explore-col p {
     color: #d4adfc;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -280,6 +285,7 @@ video {
 
 .blogs p {
   color: #d4adfc;
+  font-size: 20px;
 }
 
 .blogs-col {
@@ -457,7 +463,7 @@ video {
   background-color: transparent;
   display: flex;
   justify-content: space-between;
-  font-size: 16px;
+  font-size: 18px;
   color: #e0a2e1;
   font-weight: 500;
   border: none;
@@ -469,7 +475,7 @@ video {
 .acc-answer{
   position: relative;
   color:#b2b2b2;
-  font-size: 14px;
+  font-size: 16px;
   text-align: justify;
   line-height: 30px;
   height: 0;
