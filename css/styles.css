@@ -34,7 +34,6 @@ nav {
   text-align: right;
 }
 
-
 .nav-links ul li {
   list-style: none;
   display: inline-block;
@@ -63,6 +62,7 @@ nav {
   color: #fff;
 }
 
+
 nav .fa-solid {
   display: none;
 }
@@ -72,7 +72,6 @@ video {
   top: 0;
   left: 0;
   width: 100%;
-  
 }
 .video-wrapper {
   width: 100%;
@@ -203,7 +202,7 @@ video {
   color: #ffffff;
 }
 
-.explore p{
+.explore p {
   color: #d4adfc;
   font-size: 20px;
 }
@@ -240,7 +239,6 @@ video {
 
 .explore-col:hover {
   box-shadow: 0 30px 30px 0px rgba(0, 0, 0, 0.481);
-
 }
 
 @media (max-width: 900px) {
@@ -391,8 +389,6 @@ video {
   display: flex;
 }
 
-
-
 @media (max-width: 900px) {
   .comm-col {
     margin: 50px 40px;
@@ -415,7 +411,6 @@ video {
   }
   .comm-col-right .hero-btn {
     float: none;
-    
   }
 }
 
@@ -449,8 +444,7 @@ video {
   margin: 0 auto;
 }
 
-
-.acc-wrapper{
+.acc-wrapper {
   background-color: #240677;
   margin-bottom: 20px;
   padding: 15px 40px;
@@ -458,7 +452,7 @@ video {
   box-shadow: 0 15px 25px rgba(0, 0, 50, 0.5);
 }
 
-.toggle{
+.toggle {
   width: 100%;
   background-color: transparent;
   display: flex;
@@ -472,9 +466,9 @@ video {
   padding: 15px 0;
 }
 
-.acc-answer{
+.acc-answer {
   position: relative;
-  color:#b2b2b2;
+  color: #b2b2b2;
   font-size: 16px;
   text-align: justify;
   line-height: 30px;
@@ -482,7 +476,6 @@ video {
   overflow: hidden;
   transition: all 1s;
 }
-
 
 /* ------testimonials----- */
 
@@ -717,7 +710,6 @@ body {
   margin-bottom: 5%;
   text-align: left;
   position: relative;
-  
 }
 
 .blog-col img {
@@ -940,22 +932,22 @@ body {
   width: 30rem;
 }
 
-.signup p{
+.signup p {
   color: #ccc;
   text-align: center;
   padding-top: 10px;
 }
 
-.signup a{
-  color:#d4adfc;
+.signup a {
+  color: #d4adfc;
   font-size: 16px;
   cursor: pointer;
   padding-top: 15px;
-  text-align:center;
-  text-decoration:none;
+  text-align: center;
+  text-decoration: none;
 }
-.signup a:hover{
-  color:#ffffff;
+.signup a:hover {
+  color: #ffffff;
 }
 .signup h1 {
   text-align: center;
@@ -1086,7 +1078,6 @@ body {
   font-size: 22px;
 }
 
-
 /* -------Confirmation------- */
 
 .confirm-container {
@@ -1124,6 +1115,3 @@ body {
 .confirm {
   text-align: center;
 }
-
-
-
