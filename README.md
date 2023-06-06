@@ -66,6 +66,14 @@ The project uses HTML, CSS, and JavaScript for the front-end development and PHP
 ### Confirmation
 ![screencapture-localhost-mp-confirm-php-2023-06-01-23_09_43](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/13471082-d54b-4cf7-a5b6-dc80972601d0)
 
+## PHP
+### Structure of Table
+![localhosthph-structure](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/6a3b9388-f145-4463-aeee-9f45fb1d17f9)
+
+
+### Database
+![localhosthph-database](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/505ccf38-5288-48e3-8fe4-03682892417a)
+
 
 
 ## Contributors
