@@ -33,9 +33,37 @@ The project uses HTML, CSS, and JavaScript for the front-end development and PHP
   <li>You can also navigate to the "Contact" page, fill form and submit.</li>
 </ol>
 
+
+<h1>Screenshots</h1>
+<h2>Home Page</h2>
+<img src="images\screencapture-localhost-mp-2023-06-01-23_01_53.png">
+
+<h2>About</h2>
+<img src="images\screencapture-localhost-mp-about-html-2023-06-01-23_05_04.png">
+
+<h2>Blogs</h2>
+<img src="images\screencapture-localhost-mp-blogs-html-2023-06-01-23_06_40.png">
+
+<h2>Contact</h2>
+<img src="images\screencapture-localhost-mp-contact-html-2023-06-01-23_07_13.png">
+
+<h2>Sign Up</h2>
+<img src="images\screencapture-localhost-mp-signup-html-2023-06-01-23_07_40.png">
+
+<h2>Sign Up Success</h2>
+<img src="images\screencapture-localhost-mp-signup-success-html-2023-06-01-23_08_54.png">
+
+<h2>Login</h2>
+<img src="images\screencapture-localhost-mp-login-php-2023-06-01-23_09_19.png">
+
+<h2>Confirmation</h2>
+<img src="images\screencapture-localhost-mp-confirm-php-2023-06-01-23_09_43.png">
+
+
 <h1>Contributors</h1>
 
 This project was created by Neha Nupur.
+
 
 <h1>License</h1>
 
