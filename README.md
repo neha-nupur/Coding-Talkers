@@ -42,7 +42,7 @@ The project uses HTML, CSS, and JavaScript for the front-end development and PHP
 <img src="images\screencapture-localhost-mp-about-html-2023-06-01-23_05_04.png">
 
 <h2>Blogs</h2>
-![screencapture-localhost-mp-blogs-html-2023-06-01-23_06_40](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/2f00fd4c-d93e-43da-ac18-07ea80dba3c5)
+![screencapture-localhost-mp-blogs-html-2023-06-01-23_06_40](images\screencapture-localhost-mp-blogs-html-2023-06-01-23_06_40.png)
 
 <h2>Contact</h2>
 ![screencapture-localhost-mp-contact-html-2023-06-01-23_07_13](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/65a1d45c-d456-4a24-a456-869211ec4c12)
