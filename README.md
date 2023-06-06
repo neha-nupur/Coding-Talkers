@@ -36,28 +36,35 @@ The project uses HTML, CSS, and JavaScript for the front-end development and PHP
 
 <h1>Screenshots</h1>
 <h2>Home Page</h2>
-<img src="images\screencapture-localhost-mp-2023-06-01-23_01_53.png">
+![screencapture-localhost-mp-2023-06-01-23_01_53](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/adcc2d3d-a1e5-4042-be13-6edf5588646f)
+
 
 <h2>About</h2>
-<img src="images\screencapture-localhost-mp-about-html-2023-06-01-23_05_04.png">
+![screencapture-localhost-mp-about-html-2023-06-01-23_05_04](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/e33e9e0d-1d69-48f4-97f9-d16fd9b59e1f)
+
 
 <h2>Blogs</h2>
-<img src="images\screencapture-localhost-mp-blogs-html-2023-06-01-23_06_40.png">
+![screencapture-localhost-mp-blogs-html-2023-06-01-23_06_40](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/2f00fd4c-d93e-43da-ac18-07ea80dba3c5)
 
 <h2>Contact</h2>
-<img src="images\screencapture-localhost-mp-contact-html-2023-06-01-23_07_13.png">
+![screencapture-localhost-mp-contact-html-2023-06-01-23_07_13](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/65a1d45c-d456-4a24-a456-869211ec4c12)
+
 
 <h2>Sign Up</h2>
-<img src="images\screencapture-localhost-mp-signup-html-2023-06-01-23_07_40.png">
+![screencapture-localhost-mp-signup-html-2023-06-01-23_07_40](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/1358e594-88ae-41eb-b52e-629221a9306f)
+
 
 <h2>Sign Up Success</h2>
-<img src="images\screencapture-localhost-mp-signup-success-html-2023-06-01-23_08_54.png">
+![screencapture-localhost-mp-signup-success-html-2023-06-01-23_08_54](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/6dbf9299-6ed2-444a-a0b5-1c58f7d1e8dd)
+
 
 <h2>Login</h2>
-<img src="images\screencapture-localhost-mp-login-php-2023-06-01-23_09_19.png">
+![screencapture-localhost-mp-login-php-2023-06-01-23_09_19](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/e52fef49-882e-41b2-84b3-a107ce09ae6b)
+
 
 <h2>Confirmation</h2>
-<img src="images\screencapture-localhost-mp-confirm-php-2023-06-01-23_09_43.png">
+![screencapture-localhost-mp-confirm-php-2023-06-01-23_09_43](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/57c7fced-0b6c-4e73-9763-f3689a272175)
+
 
 
 <h1>Contributors</h1>
