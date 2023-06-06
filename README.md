@@ -52,6 +52,7 @@ The project uses HTML, CSS, and JavaScript for the front-end development and PHP
 
 
 ### Sign Up
+![screencapture-localhost-mp-signup-html-2023-06-01-23_07_40](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/b2ca3ecd-0f2a-4c92-b906-0f99a1a8a81f)
 
 
 ### Sign Up Success
