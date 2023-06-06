@@ -42,23 +42,19 @@ The project uses HTML, CSS, and JavaScript for the front-end development and PHP
 <img src="images\screencapture-localhost-mp-about-html-2023-06-01-23_05_04.png">
 
 <h2>Blogs</h2>
-![screencapture-localhost-mp-blogs-html-2023-06-01-23_06_40](images\screencapture-localhost-mp-blogs-html-2023-06-01-23_06_40.png)
+<img src="images\screencapture-localhost-mp-blogs-html-2023-06-01-23_06_40.png">
 
 <h2>Contact</h2>
-![screencapture-localhost-mp-contact-html-2023-06-01-23_07_13](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/65a1d45c-d456-4a24-a456-869211ec4c12)
-
+<img src="images\screencapture-localhost-mp-contact-html-2023-06-01-23_07_13.png">
 
 <h2>Sign Up</h2>
-![screencapture-localhost-mp-signup-html-2023-06-01-23_07_40](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/1358e594-88ae-41eb-b52e-629221a9306f)
-
+<img src="images\screencapture-localhost-mp-signup-html-2023-06-01-23_07_40.png">
 
 <h2>Sign Up Success</h2>
-![screencapture-localhost-mp-signup-success-html-2023-06-01-23_08_54](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/6dbf9299-6ed2-444a-a0b5-1c58f7d1e8dd)
-
+<img src="images\screencapture-localhost-mp-signup-success-html-2023-06-01-23_08_54.png">
 
 <h2>Login</h2>
-![screencapture-localhost-mp-login-php-2023-06-01-23_09_19](https://github.com/neha-nupur/Coding-Talkers/assets/110279038/e52fef49-882e-41b2-84b3-a107ce09ae6b)
-
+<img src="images\screencapture-localhost-mp-login-php-2023-06-01-23_09_19.png">
 
 <h2>Confirmation</h2>
 <img src="images\screencapture-localhost-mp-confirm-php-2023-06-01-23_09_43.png">
