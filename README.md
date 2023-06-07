@@ -36,7 +36,7 @@ The project uses HTML, CSS, and JavaScript for the front-end development and PHP
 
 <h1>Screenshots</h1>
 <h2>Home Page</h2>
-<img src="images\screencapture-localhost-mp-2023-06-01-23_01_53.png">
+![Home Page](images\screencapture-localhost-mp-2023-06-01-23_01_53.png)
 
 <h2>About</h2>
 <img src="images\screencapture-localhost-mp-about-html-2023-06-01-23_05_04.png">
