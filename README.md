@@ -79,7 +79,7 @@ The project uses HTML, CSS, and JavaScript for the front-end development and PHP
 
 ## Contributors
 
-This project was created by Neha Nupur.
+This project was created by `Neha Nupur` for University Project.
 
 
 ## License
